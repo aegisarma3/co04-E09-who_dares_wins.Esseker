@@ -18,7 +18,7 @@ if(isServer) then {if(local player) then {DAC_Code = 1} else {DAC_Code = 0}} els
 // DAC_Settings	 |
 //===============|=============================================================================================|
 
-	if(isNil "DAC_STRPlayers")		then {		DAC_STRPlayers		= ["s1","s2","s3","s4","s5","s6","s7","s8","s9","s10"]};
+	if(isNil "DAC_STRPlayers")		then {		DAC_STRPlayers		= ["s1","s2","s3","s4","s5","s6","s7","s8","s9","s10","s11","s12"]};
 	if(isNil "DAC_AI_Count_Level")	then {		DAC_AI_Count_Level  = [[2,4],[3,6],[4,8],[6,12],[1,0]]			};
 	if(isNil "DAC_Dyn_Weather") 	then {		DAC_Dyn_Weather		= [0,0,0,[0, 0, 0],0]						};
 	if(isNil "DAC_Reduce_Value") 	then {		DAC_Reduce_Value	= [800,850,0.3]								};
@@ -36,7 +36,7 @@ if(isServer) then {if(local player) then {DAC_Code = 1} else {DAC_Code = 0}} els
 	if(isNil "DAC_Player_Marker")	then {		DAC_Player_Marker	= false										};
 	if(isNil "DAC_Direct_Start")	then {		DAC_Direct_Start	= false										};
 	if(isNil "DAC_Activate_Sound")	then {		DAC_Activate_Sound	= true										};
-	if(isNil "DAC_Auto_UnitCount")	then {		DAC_Auto_UnitCount	= [8,10]									};
+	if(isNil "DAC_Auto_UnitCount")	then {		DAC_Auto_UnitCount	= [12,10]									};
 	if(isNil "DAC_Player_Support")	then {		DAC_Player_Support	= [10,[4,2000,3,1000]]						};
 	if(isNil "DAC_SaveDistance")	then {		DAC_SaveDistance	= [500,["DAC_Save_Pos"]]					};
 	if(isNil "DAC_Radio_Max")		then {		DAC_Radio_Max		= DAC_AI_Level								};
